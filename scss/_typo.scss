@@ -1,0 +1,18 @@
+@use "colors";
+
+$font-size: 15px;
+$font: "Poppins", serif;
+
+@mixin font($weight: 400, $color: colors.$grey400) {
+    font-family: $font;
+    font-weight: $weight;
+    color: $color;
+}
+
+%title {
+    @include font(600, colors.$grey500)
+}
+
+%description {
+    @include font(200)
+}

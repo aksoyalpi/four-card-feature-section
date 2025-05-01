@@ -1,0 +1,75 @@
+
+@use "colors";
+@use "typo";
+
+@mixin card($color: colors.$cyan) {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border-top: 5px solid $color;
+    box-shadow: 0px 5px 5px  colors.$grey400;
+    padding: 0px 40px 50px 40px;
+    width: 75%;
+    margin: 20px 100px 20px 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: typo.$font-size;
+}
+
+p {
+    @extend %description;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    padding: 20px
+}
+
+h1 {
+    @extend %title;
+    font-weight: 200;
+}
+
+h1.title {
+    margin-top: -20px;
+    @extend %title;
+}
+
+.card-supervisor {
+    @include card;
+}
+.card-team-builder {
+    @include card(colors.$red);
+}
+.card-karma {
+    @include card(colors.$orange);
+}
+.card-calculator {
+    @include card(colors.$blue);
+}
+
+img {
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+h2 {
+    @extend %title;
+    margin-bottom: -15px;
+}
+

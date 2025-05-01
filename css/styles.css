@@ -1,0 +1,95 @@
+h1, h1.title, h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  color: hsl(212, 6%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h1.title {
+  margin-top: -20px;
+}
+
+.card-supervisor {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  box-shadow: 0px 5px 5px hsl(212, 6%, 44%);
+  padding: 0px 40px 50px 40px;
+  width: 75%;
+  margin: 20px 100px 20px 100px;
+}
+
+.card-team-builder {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  box-shadow: 0px 5px 5px hsl(212, 6%, 44%);
+  padding: 0px 40px 50px 40px;
+  width: 75%;
+  margin: 20px 100px 20px 100px;
+}
+
+.card-karma {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  box-shadow: 0px 5px 5px hsl(212, 6%, 44%);
+  padding: 0px 40px 50px 40px;
+  width: 75%;
+  margin: 20px 100px 20px 100px;
+}
+
+.card-calculator {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  box-shadow: 0px 5px 5px hsl(212, 6%, 44%);
+  padding: 0px 40px 50px 40px;
+  width: 75%;
+  margin: 20px 100px 20px 100px;
+}
+
+img {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+h2 {
+  margin-bottom: -15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
