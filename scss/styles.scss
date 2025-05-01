@@ -84,6 +84,11 @@ h2 {
     margin-bottom: -15px;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 @media (min-width: 1200px) {
     .features {
         display: grid;
